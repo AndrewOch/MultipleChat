@@ -1,10 +1,10 @@
 package programs;
 
-import servers.ChatServer;
+import servers.CServer;
 
 public class ProgramServerCharStart {
     public static void main(String[] args) {
-        ChatServer server = new ChatServer();
+        CServer server = new CServer();
         server.start(4445);
     }
 }
